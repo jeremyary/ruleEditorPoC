@@ -2,9 +2,9 @@
 
 Proof of Concept intended to demonstrate the usage of annotations and reflection to mark properties of the data model via getter methods as eligible rule elements for
 display within a graphical editor. There are class-level & property-level annotations that each allow (in/ex)clusion of the class and individual properties
-to specific editors (defaults to all) as found in [@RuleEditorEnum](RuleEditorEnum.java).
+to specific editors (defaults to all) as found in [@RuleEditorEnum](/src/main/java/org/jary/rules/RuleEditorEnum.java).
 
-See annotations [@RuleModel](RuleModel.java) & [@RuleModelExclusion](RuleModelExclusion.java).
+See annotations [@RuleModel](/src/main/java/org/jary/rules/annotations/RuleModel.java) & [@RuleModelExclusion](/src/main/java/org/jary/rules/annotations/RuleModelExclusion.java).
 
 Example model class:
 
